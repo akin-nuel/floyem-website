@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 .maincontainer{
     background-color: #E1F7FC;
     height: 750px;
@@ -595,7 +600,9 @@ footer .nav-logo img{
         margin: auto;
     }
 
-    
+    .no-scroll {
+        overflow: hidden;
+    }
     
     .nav-menu{
         position: relative;
@@ -731,16 +738,16 @@ footer .nav-logo img{
     #no2{
         width: 250px;
         height: 250px;
-        left:25%;
+        left:20%;
     }
 
     #no1{
-        left:15%;
+        left:10%;
     }
 
 
     #no3{
-        left:60%;
+        left:52%;
     }
 
     .fs-sm-2 {
@@ -770,9 +777,24 @@ footer .nav-logo img{
         height:auto;
     }
 
+    .container .card-img-top{
+        width:130px;
+        height: 130px;
+
+    }
+
+    .container h5{
+        font-size: 18px;
+    }
+
+    .container p{
+        text-align: center;
+        font-size: 12px;
+    }
+
     .section-container{
         flex-direction: column-reverse;
-        height: 700px;
+        height: 750px;
         padding-top:0;
         justify-content: space-between;
     }
@@ -824,13 +846,13 @@ footer .nav-logo img{
     }
 
     #bg-white{
-        width:330px;
+        width:100%;
         height: 250px;
 
     }
 
     .blue{
-        width:340px;
+        width: 100%;
         height: 250px;
         margin-top: 10px;
         rotate: -7deg;

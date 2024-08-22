@@ -1,14 +1,18 @@
 const hamburger = document.querySelector(".ham-menu");
 const menu = document.querySelector(".menu");
+const body = document.body;
+
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active")
+    menu.classList.toggle("active")
+    body.classList.toggle("no-scroll")
+})
 
 const firstContainer = document.querySelector(".maincontainer");
 const circle1 = document.querySelector("#left");
 const circle2 = document.querySelector("#right");
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active")
-    menu.classList.toggle("active")
-})
 
 window.onload = function(){
     let position = 0;

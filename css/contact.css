@@ -447,6 +447,10 @@ footer .nav-logo img{
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .no-scroll {
+        overflow: hidden;
+    }
+
     .menu{
         left:-120%;
         top:100px;

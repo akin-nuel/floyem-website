@@ -78,6 +78,8 @@
     background-color: #ffffff;
     color: #00ADEF;
     margin: auto;
+    width:95%;
+    height: 49px;
 }
 
 #menu-button:hover{

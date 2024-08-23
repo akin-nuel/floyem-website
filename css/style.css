@@ -948,11 +948,15 @@ footer .nav-logo img{
     font-size: 24px;
     margin-top: 70px;
     width:85%;
+    position: relative;
+    z-index: 3;
 }
 
 .fourth .fluid-container p{
     font-size: 18px;
     width: 90%;
+    position: relative;
+    z-index: 3;
 }
 
 .fluid-container .semicircle, .fourth-circle{

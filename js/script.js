@@ -55,10 +55,14 @@ function copyText(divId) {
 
 function sendMail(){
     let parms = {
-        name: document.getElementById("user").value,
+        user: document.getElementById("user").value,
         email: document.getElementById("email").value,
         message: document.getElementById("message").value,
     }
 
-    emailjs.send("service_go0noud", "template_2uc245q", parms).then(alert("Email Sent!!!"))
+    emailjs.send("service_w75gvxn", "template_c750wva", parms).then(alert("Email Sent!!!"));
+
+    user.value = " ";
+    email.value = " ";
+    message.value= " ";
 }

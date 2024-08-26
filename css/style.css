@@ -63,7 +63,7 @@ body {
 
 .blue-button{
     background-color: #6ed4fb;
-    width:100%;
+    width:115%;
     height: 50px;
     position: absolute;
     rotate: -5deg;
@@ -74,9 +74,8 @@ body {
     background-color: #ffffff;
     color: #00ADEF;
     margin: auto;
-    width:95%;
     height: 49px;
-    min-width: 110px;
+    min-width: 130px;
 }
 
 #menu-button:hover{

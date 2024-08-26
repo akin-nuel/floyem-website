@@ -1,5 +1,6 @@
 const hamburger = document.querySelector(".ham-menu");
 const menu = document.querySelector(".menu");
+const contact = document.querySelector(".button-box")
 const body = document.body;
 
 
@@ -7,6 +8,7 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active")
     menu.classList.toggle("active")
     body.classList.toggle("no-scroll")
+    contact.classList.toggle("active")
 })
 
 const firstContainer = document.querySelector(".maincontainer");

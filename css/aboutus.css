@@ -60,7 +60,7 @@
 .button-box{
     position: relative;
     z-index: 4;
-    width:10%;
+    width:14%;
     height: 70px;
     position: relative;
 }
@@ -496,6 +496,14 @@ footer .nav-logo img{
 
     .button-box{
         display: none;
+        width: 120px;
+    }
+
+    .button-box.active{
+        display: block;
+        position: absolute;
+        top:25%;
+        left:35%;
     }
 
     .maincontainer{
@@ -804,6 +812,14 @@ footer .nav-logo img{
 
     .button-box{
         display: none;
+        width: 120px;
+    }
+
+    .button-box.active{
+        display: block;
+        position: absolute;
+        top:25%;
+        left:35%;
     }
 
     .maincontainer{
@@ -997,18 +1013,20 @@ footer .nav-logo img{
     }
 
     footer .nav-logo{
-        width:100%;
+        width:60%;
         height:100px;
+        display: block;
+        margin: auto;
     }
     
     footer .nav-logo .logo{
-        width:40%;
+        width:100%;
         height:40px;
     }
     
     footer .nav-logo p{
         font-size: 12px;
-        width:40%;
+        width:100%;
         margin: auto;
     }
     

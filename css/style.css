@@ -56,7 +56,7 @@ body {
 .button-box{
     position: relative;
     z-index: 4;
-    width:10%;
+    width:14%;
     height: 70px;
     position: relative;
 }
@@ -115,7 +115,7 @@ body {
     margin: 5px auto;
     -webkit-animation: all 0.3s ease-in-out;
     animation: all 0.3s ease-in-out;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 .btn{
@@ -597,6 +597,7 @@ footer .nav-logo img{
    
     .navbar-inner #top-logo{
         width:30%;
+        height:65px;
         margin-right: 0;
     }
 
@@ -678,6 +679,14 @@ footer .nav-logo img{
 
     .button-box{
         display: none;
+        width: 120px;
+    }
+
+    .button-box.active{
+        display: block;
+        position: absolute;
+        top:25%;
+        left:35%;
     }
 
     .maincontainer{
@@ -1013,6 +1022,9 @@ footer .nav-logo p{
 }
 
 @media (max-width: 576px){
+    .maincontainer{
+        position: relative;
+    }
 
     .txt-light{
         color: #ffffff;
@@ -1022,15 +1034,15 @@ footer .nav-logo p{
         width:90%;
     }
 
-   
-
     .navbar-inner #top-logo{
         width:30%;
         margin-right: 0;
+        height:60px;
     }
 
     #top-logo .logo{
         width: 80%;
+        height: 55px;
         margin: auto;
     }
 
@@ -1107,6 +1119,14 @@ footer .nav-logo p{
 
     .button-box{
         display: none;
+        width: 120px;
+    }
+
+    .button-box.active{
+        display: block;
+        position: absolute;
+        top:25%;
+        left:35%;
     }
 
     .maincontainer{
@@ -1155,8 +1175,6 @@ footer .nav-logo p{
         padding: 5px;
         margin: auto;
     }
-
- 
 
     .img-container{
         width:100%;
@@ -1263,6 +1281,10 @@ footer .nav-logo p{
         width:350px;
         height: 350px;
         margin:auto;
+    }
+
+    .section-container #center{
+        margin: auto;
     }
 
     .third h1{
@@ -1407,17 +1429,21 @@ footer .nav-logo p{
 }
 
 footer .nav-logo{
-    width:240px;
+    width:60%;
     height:100px;
+    display: block;
+    margin: auto;
 }
 
 footer .nav-logo .logo{
-    width:120px;
+    width:100%;
     height:40px;
 }
 
 footer .nav-logo p{
     font-size: 12px;
+    width:100%;
+    margin: auto;
 }
 
 }

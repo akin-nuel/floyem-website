@@ -221,8 +221,68 @@
     object-fit: contain;
 }
 
+.card #M1{
+    background-image: url("/asset/1\ 1.png");
+}
+
+.card #M2{
+    background-image: url("/asset/1\ 2.png");
+}
+
+.card #M3{
+    background-image: url("/asset/1\ 3.png");
+}
+
+.card #M4{
+    background-image: url("/asset/4.png");
+}
+
+.card #M5{
+    background-image: url("/asset/product\ 1.png");
+}
+
+.card #M6{
+    background-image: url("/asset/6.png");
+}
+
+.card #M7{
+    background-image: url("/asset/7.png");
+}
+
+.card #M8{
+    background-image: url("/asset/8.png");
+}
+
+.card #MS{
+    background-image: url("/asset/Sesame.png");
+}
+
+.card #MG{
+    background-image: url("/asset/Garlic.png");
+}
+
+.card #MC{
+    background-image: url("/asset/cinnamon.png");
+}
+
+.card #M9{
+    background-image: url("/asset/9.png");
+}
+
+.card #M15{
+    background-image: url("/asset/15.png");
+}
+
+.card #M13{
+    background-image: url("/asset/13\ 1.png");
+}
+
+.card #M14{
+    background-image: url("/asset/14.png");
+}
+
 .card #M16{
-    background-image: url("/asset/20.png");
+    background-image: url("/asset/16.png");
 }
 
 .card #M17{
@@ -559,9 +619,9 @@ footer .nav-logo img{
         color: #ffffff;
     }
 
-    section .container{
+    /* section .container{
         padding: 0 30px;
-    }
+    } */
 
     .navbar-inner{
         width:90%;
@@ -583,10 +643,12 @@ footer .nav-logo img{
     .navbar-inner #top-logo{
         width:30%;
         margin-right: 0;
+        height:50px;
     }
 
     #top-logo .logo{
         width: 80%;
+        height: 55px;
         margin: auto;
     }
     
@@ -742,10 +804,10 @@ footer .nav-logo img{
     }
 
     .container h5{
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         font-size: 16px;
-        width: 60%;
+        width: 100%;
         margin:auto; 
     }
 

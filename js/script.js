@@ -68,3 +68,13 @@ function sendMail(){
     email.value = " ";
     message.value= " ";
 }
+
+document.querySelectorAll('.readMoreBtn').forEach(button => {
+    button.addEventListener('click', function() {
+        const content = this.previousElementSibling; // Get the sibling content div
+        content.classList.toggle('expanded');
+        this.textContent = content.classList.contains('expanded') ? 'Read Less' : 'Read More';
+    });
+});
+
+

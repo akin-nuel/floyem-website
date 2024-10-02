@@ -209,7 +209,7 @@
 
 
 #mar{
-    margin:-50px auto;
+    margin:-30px auto;
 }
 
 .span-light-blue{
@@ -229,7 +229,7 @@
 }
 
 .text-container{
-    width:80%;
+    width:90%;
     border: 3px solid #000;
     background-color: #fff;
     border-radius: 5px;
@@ -241,6 +241,7 @@
     color: var(--Colors-Secondary-Color, #304147);
     text-align: justify;
     font-family: "Instrument Sans";
+    text-indent: 20px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -669,7 +670,7 @@ footer .nav-logo img{
 
     .five{
         width:90%;
-        height:760px;
+        height:600px;
     }
 
     .five h4{
@@ -727,16 +728,15 @@ footer .nav-logo img{
     .navbar-inner{
         width:90%;
     }
-
-   
-
     .navbar-inner #top-logo{
         width:30%;
         margin-right: 0;
+        height:50px;
     }
 
     #top-logo .logo{
         width: 80%;
+        height: 55px;
         margin: auto;
     }
     
@@ -961,7 +961,7 @@ footer .nav-logo img{
     }
 
     .fourth{
-        height:350px;
+        height:470px;
         padding: 20px;
     }
 

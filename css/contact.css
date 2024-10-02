@@ -682,15 +682,15 @@ footer .nav-logo img{
         width:90%;
     }
 
-   
-
     .navbar-inner #top-logo{
         width:30%;
         margin-right: 0;
+        height:50px;
     }
 
     #top-logo .logo{
         width: 80%;
+        height: 55px;
         margin: auto;
     }
     
@@ -738,6 +738,23 @@ footer .nav-logo img{
         position: absolute;
         z-index: 7;
 
+    }
+
+
+    .numbers{
+       width: 80%;
+    }
+
+    #two{
+        margin-top: 70px;
+        height: 350px;
+        padding: 25px;
+    }
+
+    #three{
+        margin-top: 70px;
+        height: 450px;
+        padding: 25px;
     }
 
     .border-sm{
@@ -840,9 +857,9 @@ footer .nav-logo img{
 
     .text-container{
         width: 90%;
-        height: 350px;
+        height: 450px;
         margin: auto;
-        padding: 30px;
+        padding: 20px;
     }
 
     .text-container h3{
@@ -859,7 +876,8 @@ footer .nav-logo img{
     }
 
     .text-container .info{
-        display: inline;
+        display: flex;
+        flex-direction: column;
         width:100%;
     }
 
@@ -869,15 +887,18 @@ footer .nav-logo img{
 
     input[type=text], input[type=email]{
         padding: 8px 10px 8px 40px;
+        width: 100%;
+        height: 40px;
     }
 
     #user{
-        background-position: 5px 5px;
+        background-position: 7px 7px;
+
     }
     
     #email{
-        background-position: 3px 3px;
-        margin-top: 5px;
+        background-position: 8px 8px;
+        /* margin-top: 5px; */
     }
 
     textarea{
@@ -900,14 +921,24 @@ footer .nav-logo img{
 
     .no{
         width:85%;
+        margin-bottom: 25px;
     }
 
     .no #numberDiv1, #numberDiv2, #numberDiv3{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .address{
         width: 32%;
+    }
+
+    .text-container .contact{
+        flex-direction: column;
+    }
+
+    .contact .address{
+        width: 50%;
+        margin-bottom: 20px;
     }
 
     .address p{

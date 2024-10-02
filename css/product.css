@@ -247,10 +247,12 @@
 
 .card #M7{
     background-image: url("/asset/7.png");
+    background-size: contain;
 }
 
 .card #M8{
     background-image: url("/asset/8.png");
+    background-size: contain;
 }
 
 .card #MS{
@@ -259,10 +261,12 @@
 
 .card #MG{
     background-image: url("/asset/Garlic.png");
+    background-size: contain;
 }
 
 .card #MC{
     background-image: url("/asset/cinnamon.png");
+    background-size: contain;
 }
 
 .card #M9{

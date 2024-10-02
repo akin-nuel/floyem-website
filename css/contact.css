@@ -337,6 +337,17 @@ textarea{
     padding: 0 5px;
 } 
 
+#three{
+    margin-top: 60px;
+    height: 540px;
+    padding: 25px;
+    height: 300px;
+}
+
+.address{
+    width: 100%;
+}
+
 .numbers button{
     background-color: transparent;
 }
@@ -365,6 +376,7 @@ textarea{
 .address p{
     margin:0;
     font-size: 16px;
+    width: 80%;
 }
 
 .address h4{
@@ -634,6 +646,10 @@ footer .nav-logo img{
         display: block;
     }
 
+    #three{
+        margin-top: 50px;
+    }
+
     .no{
         width:70%;
     }
@@ -746,14 +762,14 @@ footer .nav-logo img{
     }
 
     #two{
-        margin-top: 70px;
+        margin-top: 60px;
         height: 350px;
         padding: 25px;
     }
 
     #three{
-        margin-top: 70px;
-        height: 450px;
+        margin-top: 60px;
+        height: 540px;
         padding: 25px;
     }
 
@@ -863,7 +879,7 @@ footer .nav-logo img{
     }
 
     .text-container h3{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .text-container p{
@@ -937,11 +953,12 @@ footer .nav-logo img{
     }
 
     .contact .address{
-        width: 50%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
     .address p{
+        width: 90%;
         font-size: 14px;
     }
 

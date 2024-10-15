@@ -421,7 +421,14 @@ footer .nav-logo img{
     height: 50px;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 991px){
+    
+    #mar{
+        padding: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
     .txt-light{
         color: #ffffff;
     }
@@ -429,8 +436,6 @@ footer .nav-logo img{
     .navbar-inner{
         width:90%;
     }
-
-   
 
     .navbar-inner #top-logo{
         width:30%;

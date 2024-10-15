@@ -401,7 +401,24 @@ footer .nav-logo img{
     height: 50px;
 }
 
-@media(max-width: 768px){
+@media (min-width: 768px) and (max-width: 991px){
+
+    .fourth{
+        display: flex;
+        height: 300px;
+    }
+
+    .five{
+        width:80%;
+        height: 400px;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 576px) and (max-width:767px){
     .txt-light{
         color: #ffffff;
     }

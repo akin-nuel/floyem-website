@@ -609,8 +609,111 @@ footer .nav-logo img{
     height: 50px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
 
-@media (max-width: 768px){
+    .maincontainer{
+        height: 650px;
+    }
+
+    
+    .nav-bar{
+        width: 40%;
+        height: 55px;
+        align-items: center;
+    }
+
+    .button-box {
+        width:20%;
+        margin-top: 20px;
+    }
+
+    .button-box #menu-button{
+        width:80%;
+        height: 20px;
+    }
+
+    .button-box .blue-button{
+        width:100%;
+        height: 20px;
+    }
+
+    .button-box h6{
+        font-size: 12px;
+    }
+
+    .circle1{
+        width:400px;
+        height:400px;
+        z-index: 0;
+    }
+
+    .content{
+        margin: 30px;
+        display: flex;
+    }
+
+
+    .textbox .custom-size{
+        z-index: 2;
+        position: relative;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    .textbox .parag{
+        position: relative;
+        z-index: 2;
+        font-size: 13px;
+    }
+
+    .textbox #btn span{
+        font-size: 14px;
+    }
+
+    .img-container {
+        width: 45%;
+       height: 300px;
+    }
+    
+    .img-container .img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-container #no2{
+        width: 300px;
+        height: 300px;
+        left: 40px;
+    }
+
+    .img-container #no3{
+        left: 200px;
+    }
+    
+    .section-container .img-container{
+        width: 40%;
+    }
+
+    .section-container .textcontainer p{
+        font-size: 16px;
+    }
+
+
+    #bg-white{
+        width: 95%;
+    }
+
+    .blue{
+        width: 97%;;
+    }
+
+    .fourth .fluid-container h1{
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
     .txt-light{
         color: #ffffff;
     }

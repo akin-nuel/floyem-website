@@ -396,7 +396,14 @@ footer .nav-logo img{
     height: 50px;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 991px){
+    .row .img{
+        width:220px;
+        height: 240px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
     .txt-light{
         color: #ffffff;
     }

@@ -1383,6 +1383,15 @@ footer .nav-logo p{
         text-align: center;
     }
 
+    .section-container .img1{
+        display: none;
+    }
+
+    .section-container .circle{
+        width:300px;
+        height: 300px;
+    }
+
     .textcontainer{
         width:80%;
         margin: 20px auto;
